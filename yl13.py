@@ -11,6 +11,8 @@ pet = input('Sisesa oma lemmik loom: ')
 
 animal = ['jänes', 'hamster', 'kass']
 
+print(pet[0])
+
 pets.append(pet)
 
 if pet == ('kass'):
@@ -26,7 +28,7 @@ else:
     print(pets)
 
 
-
+print(pets[-1][-1])
 
     
     

@@ -14,6 +14,10 @@ fruit = ['banaan', 'avocado', 'pirn']
 
 fruit.append('õun')
 
+num = len(fruit)
+
+fruit[1] = 'ploom'
+
 fruit.sort(reverse = True)
 
-print(fruit)
+print(fruit, num)
